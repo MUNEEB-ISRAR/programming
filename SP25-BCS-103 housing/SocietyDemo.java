@@ -3,7 +3,7 @@ public class SocietyDemo {
 
         // Create a Housing Society
         HousingSociety s = new HousingSociety("Lahore Housing Society");
-        System.out.println("✅ Society created successfully!");
+        System.out.println(" Society created successfully!");
 
         //  Print basic info
         s.printSummary();
@@ -14,7 +14,7 @@ public class SocietyDemo {
 
         //  Add a new custom block with a specific number of streets
         s.AddBlock(4);
-        System.out.println("\n✅ Added new block with 4 streets!");
+        System.out.println("\n Added new block with 4 streets!");
         s.printSummary();
 
         //  Book a plot using Block name and Plot ID
@@ -51,3 +51,4 @@ public class SocietyDemo {
         System.out.println("\n DEMO COMPLETED SUCCESSFULLY!");
     }
 }
+
